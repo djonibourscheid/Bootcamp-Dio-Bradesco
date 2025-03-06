@@ -1,4 +1,4 @@
-package desafios.sintaxe;
+package desafios.sintaxe.entities;
 
 public class Conta {
     private String codigoConta;

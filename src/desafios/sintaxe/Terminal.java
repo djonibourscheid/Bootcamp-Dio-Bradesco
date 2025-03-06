@@ -1,5 +1,7 @@
 package desafios.sintaxe;
 
+import desafios.sintaxe.entities.Conta;
+
 import java.util.Scanner;
 
 public class Terminal {
