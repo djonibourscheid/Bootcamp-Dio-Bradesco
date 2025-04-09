@@ -25,8 +25,8 @@ public class Terminal {
 
         Conta conta = new Conta(codigoConta, agencia, nome, saldo);
 
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %d, conta %s e seu " +
-                        "saldo R$%.2f já está disponível para saque.",
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco. Sua agência é %d, conta %s. " +
+                        "Seu saldo de R$%.2f já está disponível para saque.",
                 conta.getNome(), conta.getAgencia(), conta.getcodigoConta(), conta.getSaldo());
 
         sc.close();
